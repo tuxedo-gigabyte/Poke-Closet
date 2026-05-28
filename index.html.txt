@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trending Gadgets Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header>
+        <h1>⚡ SmartHacks Store</h1>
+        <p>Problem-solving gadgets delivered straight to your door.</p>
+    </header>
+
+    <!-- Product Grid Section -->
+    <main class="product-grid">
+        
+        <!-- Product Card 1 -->
+        <div class="product-card">
+            <span class="badge">Trending</span>
+            <img src="https://unsplash.com" alt="Tablet Device">
+            <h3>Ultra-Thin Magnetic Tablet Mount</h3>
+            <p class="price">$24.99 <span>$39.99</span></p>
+            <p class="description">Snap your device to any metal surface instantly. Perfect for kitchens, gym racks, and workshops.</p>
+            <a href="YOUR_SUPPLIER_OR_AFFILIATE_LINK_HERE" target="_blank" class="buy-btn">Buy It Now</a>
+        </div>
+
+        <!-- Product Card 2 -->
+        <div class="product-card">
+            <span class="badge">Hot Sale</span>
+            <img src="https://unsplash.com" alt="Desk Organizer">
+            <h3>Ergonomic Under-Desk Drawer</h3>
+            <p class="price">$19.99 <span>$29.99</span></p>
+            <p class="description">Declutter your workspace in seconds. Hidden slide-out design with damage-free adhesive strips.</p>
+            <a href="YOUR_SUPPLIER_OR_AFFILIATE_LINK_HERE" target="_blank" class="buy-btn">Buy It Now</a>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 SmartHacks Store. Secure Checkout Powered by external partners.</p>
+    </footer>
+
+</body>
+</html>

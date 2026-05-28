@@ -1,0 +1,118 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: #ffffff;
+    border-bottom: 1px solid #e1e8e6;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #111;
+    margin-bottom: 10px;
+}
+
+/* Grid Layout */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Product Card */
+.product-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.badge {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background: #ff3b30;
+    color: white;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.product-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #2ed573;
+    margin-bottom: 10px;
+}
+
+.price span {
+    font-size: 1rem;
+    text-decoration: line-through;
+    color: #a4b0be;
+    margin-left: 8px;
+}
+
+.description {
+    font-size: 0.95rem;
+    color: #747d8c;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+
+/* Action Button */
+.buy-btn {
+    display: block;
+    text-align: center;
+    background: #1e90ff;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.buy-btn:hover {
+    background: #007af5;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #a4b0be;
+    font-size: 0.85rem;
+}
